@@ -12,7 +12,7 @@ html
 body 
 {
 	font-family: 'Inspiration', cursive;
-	font-size: 2%;
+	font-size: 2vw;
 	background-image: url("images/bodyBG.jpg");
 	background-repeat: no-repeat;
 	background-size: 100%;	
@@ -91,7 +91,7 @@ h1
 {
 	text-align: center;	
 	color: GoldenRod;
-	font-size: 6vw;
+	font-size: 8vw;
 	padding: 1vw;	
 }
 
@@ -107,14 +107,14 @@ h3
 {
 	text-align: center;
 	color: Red;
-	font-size: 2.5vw;
+	font-size: 2vw;
 	padding: 1vw;
 }
 
 h4 
 {
 	text-align: center;
-	color: Orange;
+	color: DarkViolet;
 	font-size: 1.5vw;
 	padding: 1vw;
 }
