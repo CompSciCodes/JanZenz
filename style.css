@@ -12,11 +12,12 @@ html
 body 
 {
 	font-family: 'Inspiration', cursive;
-	font-size: 2vw;
+	font-size: 2%;
 	background-image: url("images/bodyBG.jpg");
 	background-repeat: no-repeat;
 	background-size: 100%;	
-	margin-top: 12%;	
+	margin-top: 12%;
+	margin-bottom: 12%;	
 }
 
 h2 a:link
@@ -174,5 +175,5 @@ input, textarea
 	display: block;
   	margin-left: auto;
 	margin-right: auto;
-	width: 10%;
+	width: 5%;
 } 
