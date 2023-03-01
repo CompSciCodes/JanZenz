@@ -1,0 +1,178 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+html 
+{
+  scroll-behavior: smooth;
+}
+
+body 
+{
+	font-family: 'Inspiration', cursive;
+	font-size: 2vw;
+	background-image: url("images/bodyBG.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;	
+	margin-top: 12%;	
+}
+
+h2 a:link
+{
+	text-decoration: none;
+	color: DarkCyan;
+}
+
+h2 a:visited
+{
+	color: DarkCyan;
+}
+
+h2 a:hover
+{
+	color: Red;
+}
+
+h2 a:active
+{
+	color: DarkCyan;
+}
+
+h4 a:link
+{
+	text-decoration: none;
+	color: DarkViolet;
+}
+
+h4 a:visited
+{
+	color: DarkViolet;
+}
+
+h4 a:hover
+{
+	color: GoldenRod;
+}
+
+h4 a:active
+{
+	color: DarkViolet;
+}
+
+table
+{
+	margin: auto;
+	border: .1vw solid black;
+	border-collapse: collapse;
+	font-size: 2vw;	
+	table-layout: auto;
+	width: 80%;	
+}
+
+th
+{
+	padding: .25vw 1vw;
+	border: .1vw solid black;
+	border-collapse: collapse;
+	width: 5vw;
+	text-align: center;
+}
+
+hr
+{
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+h1 
+{
+	text-align: center;	
+	color: GoldenRod;
+	font-size: 6vw;
+	padding: 1vw;	
+}
+
+h2 
+{
+	text-align: center;
+	color: DarkCyan;
+	font-size: 4vw;	
+	padding: 1vw;
+}
+
+h3 
+{
+	text-align: center;
+	color: Red;
+	font-size: 2.5vw;
+	padding: 1vw;
+}
+
+h4 
+{
+	text-align: center;
+	color: Orange;
+	font-size: 1.5vw;
+	padding: 1vw;
+}
+
+tr.types
+{
+	color: DarkCyan;
+}
+
+p, tr.menu
+{
+	text-align: justify;
+	font-size: 1vw;
+	font-family: 'Cutive Mono', monospace;
+	/* background-color: lightGray; */
+	padding: 1vw;
+	font-weight: bold;
+	margin-left: 10%;
+	margin-right: 10%;	
+}
+
+label, .submit
+{
+	font-family: 'Cutive Mono', monospace;
+	font-size: 1.25vw;
+	font-weight: bold;
+}
+
+.special
+{
+	color: Red;
+}
+
+form
+{
+	text-align: center;
+}
+
+/* img
+{
+	size: 30%;
+}  */
+
+input, textarea
+{
+	text-align: center;
+	font-size: 1vw;
+	font-family: 'Cutive Mono', monospace;
+	/* background-color: lightGray; */
+	padding: 1vw;
+	font-weight: bold;
+	margin-left: 10%;
+	margin-right: 10%;	
+}
+
+.heart
+{
+	display: block;
+  	margin-left: auto;
+	margin-right: auto;
+	width: 10%;
+} 
