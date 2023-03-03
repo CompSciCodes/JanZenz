@@ -14,18 +14,18 @@ body
 	background-image: url("images/bodyBG.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-	max-height: 100%		
+	max-height: initial;		
 }
 
 div.body
 {
 	font-family: 'Inspiration', cursive;
 	font-size: 2vw;
-	margin-top: 12%;	
+	margin-top: 12%;
+	margin-bottom: 12%;	
 	margin-left: 10%;
 	margin-right: 10%;	
-	overflow-y: scroll;
-	max-height: 95%
+	
 }
 
 h2 a:link
