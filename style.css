@@ -17,7 +17,8 @@ body
 	background-repeat: no-repeat;
 	background-size: 100%;	
 	margin-top: 12%;
-	margin-bottom: 12%;	
+	margin-bottom: 12%;
+	overflow: scroll;	
 }
 
 h2 a:link
