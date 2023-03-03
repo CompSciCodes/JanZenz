@@ -10,15 +10,22 @@ html
 }
 
 body 
+{	
+	background-image: url("images/bodyBG.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	max-height: 100%		
+}
+
+div.body
 {
 	font-family: 'Inspiration', cursive;
 	font-size: 2vw;
-	background-image: url("images/bodyBG.jpg");
-	background-repeat: no-repeat;
-	background-size: 100%;	
-	margin-top: 12%;
-	margin-bottom: 12%;
-	overflow: scroll;	
+	margin-top: 12%;	
+	margin-left: 10%;
+	margin-right: 10%;	
+	overflow-y: scroll;
+	max-height: 95%
 }
 
 h2 a:link
@@ -132,9 +139,7 @@ p, tr.menu
 	font-family: 'Cutive Mono', monospace;
 	/* background-color: lightGray; */
 	padding: 1vw;
-	font-weight: bold;
-	margin-left: 10%;
-	margin-right: 10%;	
+	font-weight: bold;	
 }
 
 label, .submit
